@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Configure axios to use the backend URL
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://college-voting-system-backend-l2ua.onrender.com';
 
 // Add request interceptor to include token
 axios.interceptors.request.use(
